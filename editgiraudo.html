@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estudio jurídico con 40 años de experiencia especializado en derecho de familia, sucesiones, laboral y más.">
+    <meta name="keywords" content="abogado, derecho de familia, sucesiones, Santa Fe, estudio jurídico">
+    <meta name="author" content="Edit Giraudo y Asociados">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="business.business">
+    <meta property="og:url" content="https://www.editgiraudoyasociados.com">
+    <meta property="og:title" content="Edit Giraudo y Asociados | Estudio Jurídico Especializado">
+    <meta property="og:description" content="40 años de experiencia en derecho de familia y sucesiones. Especialistas en asesoramiento legal integral.">
+    <meta property="og:image" content="/_blob/b4c5ef1231b3989f6ff3b6199d9ed466">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.editgiraudoyasociados.com">
+    <meta property="twitter:title" content="Edit Giraudo y Asociados">
+    <meta property="twitter:description" content="40 años de experiencia en derecho de familia y sucesiones.">
+    <meta property="twitter:image" content="/_blob/b4c5ef1231b3989f6ff3b6199d9ed466">
+    
+    <title>Edit Giraudo y Asociados | Estudio Jurídico Especializado</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #2d2d2d;
+            background: #fafafa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            padding: 20px 0;
+            border-bottom: 1px solid #f0f0f0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            color: #6b5b8f;
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            max-height: 50px;
+            width: auto;
+            object-fit: contain;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #2d2d2d;
+            margin-left: 40px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #9b7fbf;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #9b7fbf 0%, #6b5b8f 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .hero-logo {
+            margin-bottom: 40px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+
+        .hero .subtitle {
+            font-size: 20px;
+            margin-bottom: 10px;
+            opacity: 0.95;
+            font-weight: 300;
+        }
+
+        .hero .experience {
+            font-size: 16px;
+            opacity: 0.85;
+            margin-bottom: 40px;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: white;
+            color: #6b5b8f;
+            padding: 15px 40px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: all 0.3s;
+            cursor: pointer;
+            border: none;
+        }
+
+        .cta-button:hover {
+            background: #f5f5f5;
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Servicios */
+        .services {
+            padding: 80px 0;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 60px;
+            color: #2d2d2d;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .service-card {
+            padding: 30px;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+
+        .service-card:hover {
+            border-color: #9b7fbf;
+            box-shadow: 0 10px 30px rgba(155, 127, 191, 0.1);
+            transform: translateY(-5px);
+        }
+
+        .service-card h3 {
+            color: #6b5b8f;
+            font-size: 18px;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .service-card p {
+            color: #555;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        /* Especialización */
+        .expertise {
+            background: #f8f6fa;
+            padding: 80px 0;
+        }
+
+        .expertise-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .expertise h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+            color: #2d2d2d;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        .expertise-list {
+            list-style: none;
+        }
+
+        .expertise-list li {
+            padding: 15px 0;
+            font-size: 16px;
+            color: #2d2d2d;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .expertise-list li:before {
+            content: "✓ ";
+            color: #9b7fbf;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .expertise-list li:last-child {
+            border-bottom: none;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .stat {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 4px;
+            border: 1px solid #e8e8e8;
+        }
+
+        .stat-number {
+            font-size: 32px;
+            color: #6b5b8f;
+            font-weight: 700;
+        }
+
+        .stat-label {
+            font-size: 14px;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        /* CTA Section */
+        .cta-section {
+            background: #6b5b8f;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        .cta-section p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+
+        /* Footer */
+        footer {
+            background: #2d2d2d;
+            color: white;
+            padding: 50px 0;
+        }
+
+        footer .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+        }
+
+        .footer-section h4 {
+            font-size: 16px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .footer-section p, .footer-section a {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #ccc;
+            text-decoration: none;
+        }
+
+        .footer-section a:hover {
+            color: #9b7fbf;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            margin-top: 30px;
+            border-top: 1px solid #444;
+            font-size: 12px;
+            color: #999;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero-logo {
+                margin-bottom: 30px;
+            }
+
+            .hero h1 {
+                font-size: 32px;
+            }
+
+            .hero .subtitle {
+                font-size: 16px;
+            }
+
+            nav {
+                display: none;
+            }
+
+            .expertise-content {
+                grid-template-columns: 1fr;
+            }
+
+            .section-title {
+                font-size: 28px;
+            }
+
+            .expertise h2 {
+                font-size: 28px;
+            }
+
+            .cta-section h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">EG</div>
+            <nav>
+                <a href="#servicios">Servicios</a>
+                <a href="#especialidad">Especialidad</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-logo">
+                <svg viewBox="0 0 400 500" xmlns="http://www.w3.org/2000/svg" style="width: 280px; height: auto; max-width: 90vw;">
+                    <rect width="400" height="500" fill="#9b7fbf"/>
+                    <g id="letters">
+                        <text x="60" y="220" font-family="Georgia, serif" font-size="140" font-weight="bold" fill="black" letter-spacing="15">E</text>
+                        <text x="210" y="220" font-family="Georgia, serif" font-size="140" font-weight="bold" fill="black">G</text>
+                    </g>
+                    <text x="200" y="290" font-family="Georgia, serif" font-size="24" fill="black" text-anchor="middle" letter-spacing="8">EDIT GIRAUDO</text>
+                    <line x1="80" y1="310" x2="320" y2="310" stroke="black" stroke-width="1" opacity="0.3"/>
+                    <text x="200" y="345" font-family="Georgia, serif" font-size="16" fill="black" text-anchor="middle" letter-spacing="6" opacity="0.8">ESTUDIO JURIDICO</text>
+                </svg>
+            </div>
+            <h1>Edit Giraudo y Asociados</h1>
+            <p class="subtitle">Estudio Jurídico Especializado</p>
+            <p class="experience">40 años de experiencia en derecho de familia y sucesiones</p>
+            <a href="https://wa.me/543416635102?text=Hola%20Edu,%20me%20gustaría%20solicitar%20una%20consulta%20sobre%20sus%20servicios" class="cta-button">Solicitar Consulta</a>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="section-title">Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Familia y Sucesiones</h3>
+                    <p>Especialización en divorcios, testamentarías, herencias y cuestiones familiares complejas con 40 años de trayectoria.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Derecho Laboral</h3>
+                    <p>Asesoramiento integral en conflictos laborales y gestión de cobro de prestaciones con experiencia probada.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Daños y Perjuicios</h3>
+                    <p>Representación en acciones por responsabilidad civil y reclamos de indemnización ante terceros.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Consultoría Jurídica</h3>
+                    <p>Asesoramiento estratégico adaptado a tus necesidades específicas con análisis profundo de cada caso.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Asesoramiento a Consorcios</h3>
+                    <p>Orientación legal especializada para administradores y propietarios en materia de derecho consorcial.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Derecho Administrativo</h3>
+                    <p>Representación en trámites administrativos y conflictos con organismos del Estado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Especialización -->
+    <section id="especialidad" class="expertise">
+        <div class="container">
+            <div class="expertise-content">
+                <div>
+                    <h2>Especialización en Derecho de Familia</h2>
+                    <ul class="expertise-list">
+                        <li>Divorcios y separaciones de hecho</li>
+                        <li>Régimen de tenencia y cuota alimentaria</li>
+                        <li>Sucesiones y testamentarías</li>
+                        <li>Cuestiones patrimoniales matrimoniales</li>
+                        <li>Adopción y filiación</li>
+                        <li>Mediación familiar</li>
+                    </ul>
+                </div>
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Años de Experiencia</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedicación Profesional</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section id="contacto" class="cta-section">
+        <div class="container">
+            <h2>¿Necesitás asesoramiento legal?</h2>
+            <p>Contactanos a través de Instagram o utilizá el botón de solicitar consulta para hablar por WhatsApp</p>
+            <a href="https://www.instagram.com/draeditgiraudoyasociados/?hl=en" class="cta-button" style="background: #6b5b8f; color: white; border: 2px solid white;">Seguinos en Instagram</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-section">
+                <h4>Edit Giraudo y Asociados</h4>
+                <p>Estudio Jurídico con 40 años de experiencia especializado en derecho de familia y sucesiones.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Servicios</h4>
+                <p>• Familia y Sucesiones<br>
+                   • Derecho Laboral<br>
+                   • Daños y Perjuicios<br>
+                   • Consultoría Jurídica</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contacto</h4>
+                <a href="tel:+543416635102">📱 +54 341 663-5102</a><br>
+                <a href="https://wa.me/543416635102">WhatsApp</a><br>
+                <a href="https://www.instagram.com/draeditgiraudoyasociados/?hl=en">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Edit Giraudo y Asociados. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
